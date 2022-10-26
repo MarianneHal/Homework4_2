@@ -1,0 +1,94 @@
+.a {
+    width: 1300px;
+    height: 300px;
+    background-color: silver;
+    margin: 20px;
+
+}
+.bcde {width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.bcdef {
+    display: flex;
+    box-sizing: border-box;
+}
+.b {
+    width: 1000px;
+    height: 300px;
+    background-color: silver;
+    margin-right: 20px;
+}
+.c {
+    width:310px;
+    height: 280px;
+    background-color: silver;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.d {
+    width:310px;
+    height: 280px;
+    background-color: silver;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.e {
+    width:310px;
+    height: 280px;
+    background-color: silver;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.f {
+    width: 300px;
+    height: 600px;
+    background-color: silver;
+
+}
+@media screen and (min-width: 0) and (max-width: 900px) {
+    .a {
+        width: 90%;
+    height: 100px;
+    }
+    .b {
+        width: 100%;
+        height: 200px;
+        margin-right: 0;
+    }
+    .c {
+        width: 25%;
+        height: 100px;
+        margin-right: 0;
+    }
+    .d {
+        width: 25%;
+        height: 100px;
+        margin-right: 0;
+
+    }
+    .e {
+        width: 25%;
+        height: 100px;
+        margin-right: 0;
+    }
+    .f {width: 100%;
+        height: 100px;
+        margin-top: 20px;
+        margin-left: 20px;
+
+    }
+    .bcde {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    .bcdef {
+        display: block;
+        width: 90%;
+    }
+}
